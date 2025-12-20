@@ -1,13 +1,29 @@
 let audio=document.querySelector("audio");
-let btn=document.querySelector("button");
+let btn=document.querySelector("#btn1");
 let section=document.querySelector(".content");
 let section1=document.querySelector(".content2");
-console.log(audio + btn);
+let section2=document.querySelector(".content3");
 btn.addEventListener("click",function(){
-    audio.play();
-    audio.volume=0.5;
-    section.classList.add("fadeOut");
-    section.style.display="none";
-    section1.style.display="flex";
-    section1.classList.add("fadeInAnimation");
-    section1.classList.add("content2")});
+      audio.play();
+    audio.volume = 0.5;
+
+    section.classList.add("fadeOutAnimation");
+
+    setTimeout(() => {
+        section.style.display = "none";
+        section1.style.display = "flex";
+        section1.classList.add("fadeInAnimation");
+    }, 1500);
+});
+let button=document.querySelector("#next");
+button.addEventListener("click",function(){
+    section1.classList.remove("fadeInAnimation");
+    section1.classList.add("fadeOutAnimation");
+
+    setTimeout(() => {
+        section1.style.display = "none";
+        section2.style.display = "flex";
+        section2.classList.add("fadeInAnimation");
+    }, 1500);
+    
+});

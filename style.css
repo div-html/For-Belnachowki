@@ -17,6 +17,22 @@ body {
         transform: translateY(0);
     }
 }
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    to {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+}
+.fadeInAnimation{
+    animation: fadeIn 1.5s ease-out forwards;
+}
+.fadeOutAnimation {
+    animation: fadeOut 1.5s ease forwards;
+}
 .bg-wrapper {
   position: relative;
   width: 100%;
@@ -86,20 +102,14 @@ body {
     cursor: pointer;
     transform: scale(1.1);
 }
-.fadeInAnimation{
-    animation: fadeIn 1.5s ease-out forwards;
-}
-.fadeOut{
-    opacity: 0;
-    transition: opacity 1.5s ease;
-    pointer-events: none;
-}
+
+
 .content2{
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top:24vh;
-    animation: fadeIn 1.5s ease-out forwards ;
+    opacity: 1;
 }
 .card-1{
     padding: 20px;
