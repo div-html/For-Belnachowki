@@ -63,7 +63,7 @@ body {
     position: relative;
     z-index: 2;
     color: #a67a72;
-    font-size: 4rem;
+    font-size: 3rem;
     animation: fadeIn 1.5s ease-out forwards;
 }
 .content h2{
@@ -71,7 +71,7 @@ body {
     position: relative;
     z-index: 2;
     color: #a67a72;
-    font-size: 4rem;
+    font-size: 3rem;
     animation: fadeIn 1.5s ease-out forwards;
     animation-delay: 0.8s; 
     opacity: 0;
@@ -120,7 +120,7 @@ body {
     border-style:dashed;
     color: #FFF;
     border-radius: 20px;
-    font-size: 2rem;
+    font-size: 1.5rem;
     
 }
 .card-1 button{
