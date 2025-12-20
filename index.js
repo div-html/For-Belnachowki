@@ -10,5 +10,4 @@ btn.addEventListener("click",function(){
     section.style.display="none";
     section1.style.display="flex";
     section1.classList.add("fadeInAnimation");
-    section1.classList.add("content2");
-})  ;
+    section1.classList.add("content2")});
