@@ -1,3 +1,2 @@
 # For-Belnachowki
-I just fw you hard
-Update: She Liked it chat!! :D
+Something which had been bugging me and just letting it all out
